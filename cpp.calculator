@@ -1,0 +1,23 @@
+include<iostream>
+namespace std;
+
+int main(){
+  double a,b;
+  cin>>a>>b;
+  char op;
+  cin>>op;
+  
+  if(op=='+'){
+    cout<<a+b;
+  }
+  if(op=='-'){
+    cout<<a-b;
+  }
+  if(op=='*'){
+    cout<<a*b;
+  }
+  if(op=='/'){
+    cout<<a/b;
+  }
+  
+}
